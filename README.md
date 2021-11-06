@@ -38,7 +38,7 @@ The analysis of the election data showed that:
 ## Challenge Analysis Overview
 We used Python code to evaluate the election data supplied in a csv file, tabulate the election results, and print those results to a text file to supply to the Board of Elections. The election results were determined through the following steps:
 1) In the first section we declared string, integer, list and dictionary variables needed to analyze and track the elecation data:
-![Declare Variables}(https://github.com/jmueller187/Election_Analysis/blob/main/Resources/PyPollChallengeDeclareVariables.png)
+![Declare Variables](https://github.com/jmueller187/Election_Analysis/blob/main/Resources/PyPollChallengeDeclareVariables.png)
 
 2) The next section was used to write **for** and **if** loops to determine total number of votes cast in the election, votes cast for each candidate and votes cast in each county:
 ![Summarize total votes, votes per candidate and votes per county](https://github.com/jmueller187/Election_Analysis/blob/main/Resources/PyPollChallengeVoteTally.png)
