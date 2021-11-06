@@ -40,7 +40,8 @@ We used Python code to evaluate the election data supplied in a csv file, tabula
 1) In the first section we declared string, integer, list and dictionary variables needed to analyze and track the elecation data:
 ![Declare Variables](https://github.com/jmueller187/Election_Analysis/blob/main/Resources/PyPollChallengeDeclareVariables.png)
 
-2) The next section was used to write **for** and **if** loops to determine total number of votes cast in the election, votes cast for each candidate and votes cast in each county:
+2) The next section was used to write **for** and **if** loops to determine total number of votes cast in the election, votes cast for each candidate
+and votes cast in each county:
 ![Summarize total votes, votes per candidate and votes per county](https://github.com/jmueller187/Election_Analysis/blob/main/Resources/PyPollChallengeVoteTally.png)
 
 3) Once totals were determined and saved to our lists and dictionaries, we were able to open our text file and print our results, starting with total votes, votes per county and largest county turnout:
