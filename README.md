@@ -35,20 +35,23 @@ The analysis of the election data showed that:
 - The winner of the election was:
     - Diana DeGette, who received 73.8% of the vote and 272,892 total votes.
 
-## Challenge Analysis Overview
+## Analysis Overview
 We used Python code to evaluate the election data supplied in a csv file, tabulate the election results, and print those results to a text file to supply to the Board of Elections. The election results were determined through the following steps:
-1) In the first section we declared string, integer, list and dictionary variables needed to analyze and track the elecation data:
+1) In the first section we declared string, integer, list and dictionary variables needed to analyze and track the elecation data:<br>
 ![Declare Variables](https://github.com/jmueller187/Election_Analysis/blob/main/Resources/PyPollChallengeDeclareVariables.png)
 
-2) The next section was used to write **for** and **if** loops to determine total number of election votes, votes cast for each candidate and votes cast in each county:
+2) The next section was used to write **for** and **if** loops to determine total number of election votes, votes cast for each candidate and votes cast in each county:<br>
 ![Summarize total votes, votes per candidate and votes per county](https://github.com/jmueller187/Election_Analysis/blob/main/Resources/PyPollChallengeVoteTally.png)
 
-3) Once totals were determined and saved to our lists and dictionaries, we were able to open our text file and print our results, starting with total votes, votes per county and largest county turnout:
+3) Once totals were determined and saved to our lists and dictionaries, we were able to open our text file and print our results, starting with total votes, votes per county and largest county turnout:<br>
 ![Summary of total votes, county votes and largest county turnout](https://github.com/jmueller187/Election_Analysis/blob/main/Resources/PyPollChallengePrintTotalVotesWinningCounty.png)
 
-And ending with candidate summary and the winning candidate:
+And ending with candidate summary and the winning candidate:<br>
 ![Summary of candidate votes and winning candidate](https://github.com/jmueller187/Election_Analysis/blob/main/Resources/PyPollChallengePrintWinningCandidate.png)
 
+Here is the final text file that was generated and delivered to the Board of Elections:<br>
+![Final Results](https://github.com/jmueller187/Election_Analysis/blob/main/Resources/Election_Results_Text.png)
+
 ## Challenge Summary
-In summary, Python allowed us to audit and summarize the votes cast in three counties for three candidates, and determine the winning candidate, largest county turnourt and total votes cast. In addition to this election, the script could also be used - with some additional modifications - to audit the results for any election. For example, we could modify the script for a state-wide governor race, and breakout results to determin votes in each city in the state, vottes per candidate and the winning candidate. We could also modify the script for a city's mayoral race and breakout results to determine votes in each city voting district along with the candiates receiving votes and the winning candidate.
+In summary, Python allowed us to audit and summarize the votes cast in three counties for three candidates, and determine the winning candidate, largest county turnourt and total votes cast. In addition to this election, the script could also be used - with some additional modifications - to audit the results for any election. For example, we could modify the script for a state-wide governor race, and breakout results to determine votes in each city in the state, votes per candidate and the winning candidate. We could also modify the script for a city's mayoral race and breakout results to determine votes in each city voting district along with the candiates receiving votes and the winning candidate.
 
