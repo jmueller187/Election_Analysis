@@ -15,7 +15,7 @@ While parterning with the Colorado Board of Elections, we were given the followi
 - Data Source: election_results.csv
 - Software: Python 3.10.0, Visual Studio Code 1.62.0
 
-## Summary
+## Election Data Results
 The analysis of the election data showed that:
 - There were 369,711 total votes cast in the election.
 - The votes cast per county were:
@@ -43,15 +43,13 @@ We used Python code to evaluate the election data supplied in a csv file, tabula
 2) The next section was used to write **for** and **if** loops to determine total number of election votes, votes cast for each candidate and votes cast in each county:<br>
 ![Summarize total votes, votes per candidate and votes per county](https://github.com/jmueller187/Election_Analysis/blob/main/Resources/PyPollChallengeVoteTally.png)
 
-3) Once totals were determined and saved to our lists and dictionaries, we were able to open our text file and print our results, starting with total votes, votes per county and largest county turnout:<br>
+3) Once totals were determined and saved to our lists and dictionaries, we were able to open our text file and print our results, starting with total votes, votes per county and largest county turnout and ending with candidate summary and the winning candidate:<br>
 ![Summary of total votes, county votes and largest county turnout](https://github.com/jmueller187/Election_Analysis/blob/main/Resources/PyPollChallengePrintTotalVotesWinningCounty.png)
-
-And ending with candidate summary and the winning candidate:<br>
 ![Summary of candidate votes and winning candidate](https://github.com/jmueller187/Election_Analysis/blob/main/Resources/PyPollChallengePrintWinningCandidate.png)
 
-Here is the final text file that was generated and delivered to the Board of Elections:<br>
+4) The final step was to get the text file that was generated from our code delivered to the Board of Elections for their review:<br>
 ![Final Results](https://github.com/jmueller187/Election_Analysis/blob/main/Resources/Election_Results_Text.png)
 
-## Challenge Summary
+## Project Summary
 In summary, Python allowed us to audit and summarize the votes cast in three counties for three candidates, and determine the winning candidate, largest county turnourt and total votes cast. In addition to this election, the script could also be used - with some additional modifications - to audit the results for any election. For example, we could modify the script for a state-wide governor race, and breakout results to determine votes in each city in the state, votes per candidate and the winning candidate. We could also modify the script for a city's mayoral race and breakout results to determine votes in each city voting district along with the candiates receiving votes and the winning candidate.
 
